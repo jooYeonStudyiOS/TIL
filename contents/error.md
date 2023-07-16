@@ -47,3 +47,14 @@ sudo를 통해 root 권한으로 실행하면 설치가 가능하지만, 보안�
  in `bind’: Address already in use - bind(2) for 127.0.0.1:4000 (Errno::EADDRINUSE)
 서버가 하나 작동되고 있어서 안되었던 것인데, 비주얼코드에서 커맨드창 하나 닫으니까 잘 됐다
 그 때 그게 계속 켜져 있었던 것 같음 
+
+
+
+/Users/jooyeonkang/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/bundler-1.16.0.pre.3/lib/bundler/shared_helpers.rb:261:in `search_up': undefined method `untaint' for "/Users/jooyeonkang/Documents/camp/jooYeonStudyiOS.github.io":String (NoMethodError)
+
+      current  = File.expand_path(SharedHelpers.pwd).untaint
+
+버전 차이
+gemfile.lock 삭제 후 다시 인스톨하니까 제대로 됐다 
+그리고 인스톨하니까 이 파일이 생성되었다
+버전이 달라졌음 
