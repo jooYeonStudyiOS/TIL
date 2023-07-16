@@ -58,3 +58,7 @@ sudo를 통해 root 권한으로 실행하면 설치가 가능하지만, 보안�
 gemfile.lock 삭제 후 다시 인스톨하니까 제대로 됐다 
 그리고 인스톨하니까 이 파일이 생성되었다
 버전이 달라졌음 
+
+
+remote: Support for password authentication was removed on August 13, 2021.
+https://hyeo-noo.tistory.com/184
