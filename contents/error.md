@@ -62,3 +62,4 @@ gemfile.lock 삭제 후 다시 인스톨하니까 제대로 됐다
 
 remote: Support for password authentication was removed on August 13, 2021.
 https://hyeo-noo.tistory.com/184
+https://yeomss.tistory.com/233
